@@ -1,0 +1,10 @@
+name: Build 2
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    # runs-on: [self-hosted, ubuntu-fargate-small]
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "test"
