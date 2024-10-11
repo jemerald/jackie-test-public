@@ -4,6 +4,6 @@ on: [push]
 
 jobs:
   build:
-    runs-on: [self-hosted, ubuntu-codebuild-small]
+    runs-on: [self-hosted, ubuntu-fargate-small]
     steps:
       - run: echo "test"
