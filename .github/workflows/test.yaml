@@ -1,0 +1,9 @@
+name: Build
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: [self-hosted, ubuntu-codebuild-small]
+    steps:
+      - run: echo "test"
