@@ -8,3 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "test"
+      - run: echo "attach with pull_request trigger"
